@@ -71,7 +71,6 @@ public class Solution implements Runnable {
             }
             
             numOfQuery = readLineAsInteger();
-            
             for ( int j=0 ; j< numOfQuery ; j++) {
                 singleQueryInfo();
                 query= new Query(firstTable, secondTable, firstAttribute, secondAttribute,selectAll);  
